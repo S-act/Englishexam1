@@ -30,7 +30,7 @@ var timer1;
 var kanri = 0;
 function cntStart()
 {
-    timer1=3;
+    timer1=300;
     kanri = setInterval("countDown()",1000);
         tim.innerHTML = timer1;
     //setInterval("countDown()",1000);
