@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body{
+    background-color:rgba(127, 240, 255, 0.83);
+}
+
+.title{
+    margin-right: auto;
+    margin-left: auto;
+	border: solid 2px rgba(255, 88, 0, 0.82);
+    background-color: rgb(255, 255, 255);
+}
+
+.midashi{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 4vw; 
+    float: left;
+}
+
+.kbt{
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+	border: solid 2px rgb(255, 49, 0, 0.82);
+    background-color: rgba(255, 255, 255, 0.81);
+    
+}
+
+.aaa{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 400px;
+}
+.opt{
+    color: aqua;
+    font-size: 4vw;
+    text-align: center;
+    margin-left: auto;
+    background-color: cadetblue;
+}
+.sett{
+    color: aqua;
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+}
+#koko {
+    color:aqua;
+}
+#gazou1 {
+}
+#tim{
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 300%;
+}
+#end{
+    z-index: 1;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 150%;
+}
+.on{
+    opacity: 1;
+}
+.off{
+    opacity: 0;
+}
+.sai{
+    height: 85vh;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#3bun{
+    background-color: aliceblue;
+    border: 1px;
+    border-color: black;
+    width: 9vw;
+}
