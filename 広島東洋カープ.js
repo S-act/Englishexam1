@@ -18,7 +18,16 @@ function func2(){
     timer1 = 0;
     
 }
-
+function jikan(){
+    const jik = jikk.value;
+    if(jik <= 0 || jik === ""){
+        jiktim=100;
+    }else{
+        jiktim=jik;
+    }
+    
+    return jiktim;
+}
 function gazousettei(){
     const num = bangou.selectedIndex;
     const nb = num + 1;
@@ -31,7 +40,7 @@ var kanri = 0;
 function cntStart()
 {
     clearInterval(kanri);
-    timer1=300;
+    timer1=jikan(1);
     kanri = setInterval("countDown()",1000);
         tim.innerHTML = timer1;
     //setInterval("countDown()",1000);
