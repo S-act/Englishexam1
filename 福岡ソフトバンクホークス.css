@@ -9,13 +9,14 @@ body{
     margin-left: auto;
 	border: solid 2px rgba(255, 88, 0, 0.82);
     background-color: rgb(255, 255, 255);
+    height: 10vh;
 }
 
 .midashi{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-size: 4vw; 
+    font-size: 8vh; 
     float: left;
 }
 
@@ -29,10 +30,7 @@ body{
 }
 
 .aaa{
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 400px;
+    float: left;
 }
 .opt{
     color: aqua;
@@ -44,12 +42,13 @@ body{
 .sett{
     color: aqua;
     background-color: black;
-    font-size: 30px;
+    font-size: 6vh;
     text-align: center;
     margin-left: auto;
 }
-#koko {
-    color:aqua;
+.koko {
+    float: right;
+    width: 60vw;
 }
 #gazou1 {
 }
@@ -82,5 +81,5 @@ body{
     background-color: aliceblue;
     border: 1px;
     border-color: black;
-    width: 9vw;
+
 }
