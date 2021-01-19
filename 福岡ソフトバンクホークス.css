@@ -15,13 +15,17 @@ body{
 .midashi{
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 0px;
     text-align: center;
-    font-size: 8vh; 
+    font-size: 6vh; 
     float: left;
+    border: 1px;
+    border-color: orangered;
+    color: #007917;
 }
 
 .kbt{
-    margin-top: auto;
+    margin-top: 0px;;
     margin-right: auto;
     margin-left: auto;
 	border: solid 2px rgb(255, 49, 0, 0.82);
@@ -49,17 +53,19 @@ body{
 .koko {
     float: right;
     width: 60vw;
+    height: 80%;
 }
 #gazou1 {
+
 }
 #tim{
     float: right;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 300%;
+    font-size: 250%;
 }
 #end{
-    z-index: 1;
+
     float: right;
     margin-top: auto;
     margin-bottom: auto;
@@ -76,6 +82,7 @@ body{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0px;
 }
 #3bun{
     background-color: aliceblue;
