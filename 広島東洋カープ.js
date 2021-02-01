@@ -59,3 +59,12 @@ function countDown()
         func2();
     }
 }
+function clean(){
+        func2();
+    end.classList.remove('on');
+    end.classList.add('off');
+    gazou1.classList.remove('on');
+    gazou1.classList.add('off');
+        tim.classList.remove('on');
+        tim.classList.add('off');
+}
