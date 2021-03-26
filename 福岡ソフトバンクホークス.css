@@ -16,7 +16,15 @@ body{
 }
 
 .midashi{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 6vh; 
     float: left;
+    border: 1px;
+    border-color: orangered;
+    color: #007917;
 }
 
 .kbt{
@@ -40,12 +48,6 @@ body{
 }
 .sett{
     color: aqua;
-    background-color: black;
-    font-size: 6vh;
-    margin-left: auto;
-}
-.sett2{
-    color: yellow;
     background-color: black;
     font-size: 6vh;
     text-align: center;
