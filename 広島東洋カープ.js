@@ -1,4 +1,7 @@
-
+window.onload = function(){
+    var jiji = getCookieValue("jikan");
+    jikk.innerHTML = jiji;
+}
 function func(){
     gazou1.src = "画像/JP" +gazousettei(1) +".jpg";
     end.classList.remove('on');
@@ -16,7 +19,6 @@ function func2(){
     end.classList.remove('off');
     end.classList.add('on');
     timer1 = 0;
-    
 }
 function jikan(){
     const jik = jikk.value;
@@ -26,8 +28,16 @@ function jikan(){
         jiktim=jik;
     }
     
+    document.cookie = "jikan="+jiktim; 
     return jiktim;
 }
+//クッキー
+function getCookieValue(a) {
+    jikk.innerHTML = "ko";
+    var b = document.cookie.match('(^|;)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b ? b.pop() : '';
+}
+
 function gazousettei(){
     const num = bangou.selectedIndex;
     const nb = num + 1;
@@ -58,13 +68,4 @@ function countDown()
         tim.classList.add('off');
         func2();
     }
-}
-function clean(){
-        func2();
-    end.classList.remove('on');
-    end.classList.add('off');
-    gazou1.classList.remove('on');
-    gazou1.classList.add('off');
-        tim.classList.remove('on');
-        tim.classList.add('off');
 }
